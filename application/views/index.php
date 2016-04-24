@@ -59,7 +59,7 @@
 
 		<footer class="footer">
 			<div class="container">
-			<p class="text-muted">&copy; <?php echo date('Y')?> <a href="http://ahmadarif.com">Ahmad Arif</a> <span class="pull-right">Powered by <a href="http://bit.ly/dataklhost" target="_blank" rel="nofollow,noindex">Codeigniter + AngularJS + CSS Bootstrap</a></span></p>
+			<p class="text-muted">&copy; <?php echo date('Y')?> <a href="http://ahmadarif.com">Ahmad Arif</a> <span class="pull-right">Powered by <a href="#" rel="nofollow,noindex">Codeigniter + AngularJS + CSS Bootstrap</a></span></p>
 			</div>
 		</footer>
 
