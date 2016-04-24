@@ -2,15 +2,8 @@ var todoApp = angular.module('todoApp', []);
 
 todoApp.controller('TodoCtrl', function ($scope, $http) {
 
+	// variabel
 	$scope.tasks = {};
-	
-	$http.get('api/tasks')
-	.success(function(data){
-		$scope.tasks = data;
-	})
-	.error(function(data){
-		$scope.tasks = data;
-	});
 	
 	$scope.refresh = function(){
 		$http.get('api/tasks')
@@ -46,10 +39,13 @@ todoApp.controller('TodoCtrl', function ($scope, $http) {
 	}
 	
 	$scope.updateTask = function(task){
-		$http.put('api/tasks', task).error(function(data){
+		$http.put('api/tasks', task)
+		.error(function(data){
 			alert(data.error);
 		});
 		$scope.refresh();
 	}
 	
+	// first load
+	$scope.refresh();
 });
