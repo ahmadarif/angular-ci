@@ -46,6 +46,4 @@ todoApp.controller('TodoCtrl', function ($scope, $http) {
 		$scope.refresh();
 	}
 	
-	// first load
-	$scope.refresh();
 });

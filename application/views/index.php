@@ -27,7 +27,7 @@
 				<h2 ng-show="tasks.length == 0">No task yet!</h2>
 			</div>
 			
-			<div class="col-md-12" ng-show="tasks.length > 0">
+			<div class="col-md-12" ng-show="tasks.length > 0" ng-init="refresh()">
 				<table class="table table-hover">
 					<thead>
 						<tr>
