@@ -6,10 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<meta name="description" content="Create Todo App with CodeIgniter 3 + AngularJS">
-		<meta name="author" content="Pisyek Kumar">
-		<link rel="icon" href="http://pisyek.com/_pisyek.com/asset/img/favicon.ico">
 
-		<title>Pisyek Demo Todo App with CodeIgniter + AngularJS</title>
+		<title>Todo App with CodeIgniter + AngularJS</title>
 
 		<!-- Bootstrap core CSS -->
 		<link href="<?php echo site_url('asset/css/bootstrap.min.css') ?>" rel="stylesheet">
